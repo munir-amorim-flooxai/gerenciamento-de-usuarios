@@ -1,1 +1,1 @@
-let UserControllers = new UserControllers("Form-user-create", "table-users");
+let controladorInstance = new Controlador("Form-user-create", "table-users");

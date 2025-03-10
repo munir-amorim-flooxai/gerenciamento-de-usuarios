@@ -1,4 +1,4 @@
-class UserControllers {
+class Controlador {
 
     constructor(formId, tableId){
 
