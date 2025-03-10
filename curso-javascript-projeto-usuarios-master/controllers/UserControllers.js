@@ -3,7 +3,7 @@ class UserControllers {
     constructor(formId, tableId){
 
         this.formIdEl = document.getElementById(formId);
-        this.formIdEl = document.getElementById(tableId);
+        this.tableEl = document.getElementById(tableId);
 
         this.onSubmit();
 
@@ -25,7 +25,7 @@ class UserControllers {
 
         let user = {};
 
-        this.formIdEl.elements.forEach(function(field, index){
+        [...this.formIdEl.elements].forEach(function(field, index){
 
             if (field.name == "gender"){
         
