@@ -1,1 +1,1 @@
-let controladorInstance = new Controlador("Form-user-create", "table-users");
+let controlador = new Controlador("form-user-create", "form-user-update", "table-users");
